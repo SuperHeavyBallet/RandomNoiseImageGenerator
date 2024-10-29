@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js.js" defer></script>
+</head>
+<body>
+    <form>
+        <label for="type-grayscale">Grayscale</label>
+        <input type="radio" id="type-grayscale" name="type-switch" value="grayscale">
+        <label for="type-color">Color</label>
+        <input type="radio" id="type-color" name="type-switch" value="color">
+
+        <label for="black-frequency">Black Frequency</label>
+        <input id="black-frequency" name="black-frequency" type="number">
+
+        <label for="white-frequency">White Frequency</label>
+        <input id="white-frequency" name="white-frequency" type="number">
+
+        <label for="image-dimensions-x">Image Dimension X</label>
+        <input form="image-dimensions-x" name="image-dimensions-x" id="image-dimensions-x" type="number">
+        
+        <label for="image-dimensions-y">Image Dimension Y</label>
+        <input form="image-dimensions-y" name="image-dimensions-y" id="image-dimensions-y" type="number">
+
+        <button id="generate">GENERATE</button>
+    </form>
+    
+    <div id="canvas-container">
+
+    </div>
+
+
+</body>
+
+
+</html>
